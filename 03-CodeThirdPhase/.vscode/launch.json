@@ -1,0 +1,254 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch GeneticMainforLPT",
+            "request": "launch",
+            "mainClass": "GeneticAlgorithm.GeneticMainforLPT",
+            "projectName": "03-CodeThirdPhase_e521adc8"
+        },
+        {
+            "type": "java",
+            "name": "Launch GeneticMainforABC",
+            "request": "launch",
+            "mainClass": "GeneticAlgorithm.GeneticMainforABC",
+            "projectName": "03-CodeThirdPhase_e521adc8"
+        },
+        {
+            "type": "java",
+            "name": "Launch RUN_THIS",
+            "request": "launch",
+            "mainClass": "Main.RUN_THIS",
+            "projectName": "03-CodeThirdPhase_e521adc8"
+        },
+        {
+            "type": "java",
+            "name": "Launch DLXforABC",
+            "request": "launch",
+            "mainClass": "DLX.DLXforABC",
+            "projectName": "03-CodeThirdPhase_e521adc8"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlgXforABC",
+            "request": "launch",
+            "mainClass": "DLX.AlgXforABC",
+            "projectName": "03-CodeThirdPhase_e521adc8"
+        },
+        {
+            "type": "java",
+            "name": "Launch DLXforLPT",
+            "request": "launch",
+            "mainClass": "DLX.DLXforLPT",
+            "projectName": "03-CodeThirdPhase_e521adc8"
+        },
+        {
+            "type": "java",
+            "name": "Launch algorithmx",
+            "request": "launch",
+            "mainClass": "DLX.algorithmx",
+            "projectName": "phase3-1_505bbe5d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Experiment",
+            "request": "launch",
+            "mainClass": "Main.Experiment",
+            "projectName": "phase3-1_505bbe5d"
+        },
+        {
+            "type": "java",
+            "name": "Launch RUN_THIS",
+            "request": "launch",
+            "mainClass": "Main.RUN_THIS",
+            "projectName": "phase3-1_505bbe5d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Population",
+            "request": "launch",
+            "mainClass": "Genetic.Population",
+            "projectName": "phase3-1_505bbe5d"
+        },
+        {
+            "type": "java",
+            "name": "Launch DancingLinks",
+            "request": "launch",
+            "mainClass": "DLX.DancingLinks",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Display",
+            "request": "launch",
+            "mainClass": "render.Display",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch allParcels",
+            "request": "launch",
+            "mainClass": "allParcels",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practical2",
+            "request": "launch",
+            "mainClass": "Genetic.Practical2",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch algorithmx",
+            "request": "launch",
+            "mainClass": "algorithmx",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PentominoBuilder",
+            "request": "launch",
+            "mainClass": "phase1adaption.PentominoBuilder",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PentominoDatabase",
+            "request": "launch",
+            "mainClass": "phase1adaption.PentominoDatabase",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlgorithmWithoutGaps",
+            "request": "launch",
+            "mainClass": "phase1adaption.AlgorithmWithoutGaps",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlgorithmWithoutGaps",
+            "request": "launch",
+            "mainClass": "AlgorithmWithoutGaps",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlgorithmEmptyTile",
+            "request": "launch",
+            "mainClass": "AlgorithmEmptyTile",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch allPentominoes",
+            "request": "launch",
+            "mainClass": "databases.allPentominoes",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RUN_THIS",
+            "request": "launch",
+            "mainClass": "RUN_THIS",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Display",
+            "request": "launch",
+            "mainClass": "PHASE3.src.render.Display",
+            "projectName": "phase3-1_a3ce969f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RUN_THIS",
+            "request": "launch",
+            "mainClass": "RUN_THIS",
+            "projectName": "phase3-1_505bbe5d"
+        },
+        {
+            "type": "java",
+            "name": "Launch UserInput",
+            "request": "launch",
+            "mainClass": "UserInput",
+            "projectName": "phase3-1_505bbe5d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practical2",
+            "request": "launch",
+            "mainClass": "Genetic.Practical2",
+            "projectName": "phase3_baa493bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Display",
+            "request": "launch",
+            "mainClass": "render.Display",
+            "projectName": "phase3_baa493bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch allPentominoes",
+            "request": "launch",
+            "mainClass": "allPentominoes",
+            "projectName": "phase3_baa493bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Algorithm2",
+            "request": "launch",
+            "mainClass": "Algorithm2",
+            "projectName": "phase3_baa493bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Knapsack",
+            "request": "launch",
+            "mainClass": "Knapsack",
+            "projectName": "phase3_baa493bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Algorithm1",
+            "request": "launch",
+            "mainClass": "Algorithm1",
+            "projectName": "phase3_baa493bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch UserInput",
+            "request": "launch",
+            "mainClass": "UserInput",
+            "projectName": "phase3_baa493bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch UI",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/grado/Downloads/javafx-sdk-17.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "UI",
+            "projectName": "phase3_baa493bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/grado/Downloads/javafx-sdk-17.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "App",
+            "projectName": "phase3_baa493bb"
+        }
+    ]
+}

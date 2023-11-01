@@ -1,0 +1,93 @@
+---
+title: "Graphics"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readr)
+library(dygraphs)
+library(ggplot2)
+library(gganimate)
+library(gifski)
+
+
+```
+
+
+```{r cars}
+
+ruta <- "test.csv"
+
+tiemposCSV <- read_csv(ruta, col_names = F)
+
+
+
+ts <- ts(tiemposCSV)
+
+
+
+dygraph(ts) %>%
+  dyRangeSelector()%>%
+  dyBarChart()
+
+
+
+```
+
+```{r pressure, echo=FALSE}
+
+ruta1 <- "test56prun1.csv"
+ruta2 <- "test65prun1.csv"
+ruta3 <- "test56prun2.csv"
+ruta4 <- "test65prun1.csv"
+ruta5 <- "PEO.csv"
+
+tiemposCSV1 <- read_csv(ruta1, col_names = F)
+tiemposCSV2 <- read_csv(ruta2, col_names = F)
+tiemposCSV3 <- read_csv(ruta3, col_names = F)
+tiemposCSV4 <- read_csv(ruta4, col_names = F)
+tiemposCSV5 <- read_csv(ruta5, col_names = F)
+
+data <- ts(data.frame(prun156 = tiemposCSV1$X1,
+                   prun165 = tiemposCSV2$X1,
+                   prun256 = tiemposCSV3$X1,
+                   prun265 = tiemposCSV4$X1))
+
+data2 <- ts(data.frame(Algo_1 = tiemposCSV4$X1,
+                       Algo_2 = tiemposCSV5$X1))
+
+plot0 <- dygraph(data2) %>%
+  dyRangeSelector()
+
+plot0
+
+algo1 <- "algo1"
+algo2 <- "algo2"
+index <- c(1:720)
+
+data3 <- rbind.data.frame(algo1 = merge(algo1, tiemposCSV4$X1[1:720]),
+                          algo2 = merge(algo2, tiemposCSV5$X1[1:720]))
+
+data3 <- cbind.data.frame(index,
+                          data3)
+
+                          
+
+
+p <- ggplot(
+  data3,
+  aes(x = index, 
+      y = y, 
+      group = x, color = factor(x))
+  ) +
+  geom_line() +
+  scale_color_viridis_d() +
+  labs(x = "Permutations", y = "Time") +
+  theme(legend.position = "top") + geom_point() + transition_reveal(index)
+
+
+```
+
+

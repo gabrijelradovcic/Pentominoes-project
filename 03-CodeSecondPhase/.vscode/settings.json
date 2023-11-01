@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "Practical2_code"
+    ],
+    "java.project.outputPath": "bin"
+}
